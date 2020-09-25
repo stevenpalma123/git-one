@@ -1,0 +1,24 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "This is my first example with using package.json",
+  "main": "index.html",
+  "scripts": {
+    "start" : "npm run lite", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenpalma123/git-one.git"
+  },
+  "author": "Steven Palma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenpalma123/git-one/issues"
+  },
+  "homepage": "https://github.com/stevenpalma123/git-one#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
